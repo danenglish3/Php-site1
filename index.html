@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="A social media platform">
+  <meta name="author" content="Daniel English - 14850842">
+
+  <title>Home</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Assignment 1 - Daniel English - 14850842</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="searchstatusform.html">Search</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container">
+    <dic class="row"></dic>
+    <div class="row">
+
+      <!-- Blog Entries Column -->
+      <div class="col-md-8">
+        <!-- Database connection section-->
+
+        <h1 class="my-4">Status Posting System<br></h1>
+        <h5><small>
+            “I declare that this assignment is my individual work. I have not worked
+            collaboratively nor have I copied from any other student’s work or from any other source.”
+            <br><br>I have used this bootstrap template: https://startbootstrap.com/previews/blog-home/<br><br>
+            With the use of the bootstrap cdn located here:
+            https://getbootstrap.com/docs/4.3/getting-started/introduction/<br><br>
+          </small></h5>
+      </div>
+
+      <!-- Sidebar Widgets Column -->
+      <div class="col-md-4">
+
+        <!-- Side Widget -->
+        <div class="card my-4">
+          <h5 class="card-header">My Information</h5>
+          <div class="card-body">
+            Name: Daniel English <br>
+            Student ID: 14850842 <br>
+            Email: mps0494@autuni.ac.nz
+          </div>
+        </div>
+
+        <!-- Search Widget -->
+        <div class="card my-4">
+          <form action="searchstatusprocess.php" method="GET">
+            <h5 class="card-header">Search</h5>
+            <div class="card-body">
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search for..." name="search">
+                <span class="input-group-btn">
+                  <input type="submit" class="btn btn-secondary" value="search">
+                </span>
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <!-- New Post Widget -->
+        <div class="card my-4">
+          <h5 class="card-header">Post a new Status</h5>
+          <div class="card-body">
+            <a href="poststatusform.php"><button class="btn btn-secondary" type="button">Post!</button></a>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+    <!-- /.row -->
+
+  </div>
+  <!-- /.container -->
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; Daniel English - 14850842</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+</body>
+
+</html>

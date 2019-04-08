@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>About</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Assignment 1 - Daniel English - 14850842</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="searchstatusform.html">Search</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                        <span class="sr-only">(current)</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+        <dic class="row"></dic>
+        <div class="row">
+
+            <!-- Blog Entries Column -->
+            <div class="col-md-8">
+                <!-- About Post -->
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h2 class="card-title">About this assignment</h2>
+
+                        <p class="card-text">
+                            <ul>
+                                <li>What special features have you done, or attempted, in creating the site that we
+                                    should
+                                    know about? </li>
+                                    <ul>
+                                        <li>Using a template to create my website</li>
+                                        <li>The search widget on the right side of the site</li>
+                                        <li>THe back to post status page link, if the table needed to be created. </li>
+                                    </ul>
+                                <br></br>
+                                <li>Which parts did you have trouble with? </li>
+                                    <ul>
+                                        <li>Setting up the database</li>
+                                        <li>The styling of the site (css)</li>
+                                        <li>Radio buttons need the same name to only allow 1 checked at a time</li>
+                                    </ul>
+                                <br></br>
+                                <li>What would you like to do better next time? </li>
+                                    <ul>
+                                        <li>Perhaps create a custom template</li>
+                                        <li>The use of images</li>
+                                        <li>Including some animations, such as loading screens</li>
+                                        <li>Create modular portions. Such as putting the header and footers and widgets in their own file</li>
+                                    </ul>
+                                <br></br>                                    
+                                <li>What references/sources you have used to help you learn how to create your website?</li>
+                                    <ul>
+                                        <li>I have used this bootstrap template:
+                                            https://startbootstrap.com/previews/blog-home/</li>
+                                        <li> With the use of the bootstrap cdn located here:
+                                            https://getbootstrap.com/docs/4.3/getting-started/introduction/</li>
+                                    </ul>
+                                <br></br>
+                                <li>What you have learnt along the way? </li>
+                                <ul>
+                                    <li>PHP Post and Get</li>
+                                    <li>Adding a database into a website</li>
+                                    <li>Using html and css</li>
+                                </ul>
+                            </ul>
+
+                        </p>
+                    </div>
+                    <div class="card-footer text-muted">
+                        <a href="index.html">Back to homepage</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sidebar Widgets Column -->
+            <div class="col-md-4">
+
+                <!-- Side Widget -->
+                <div class="card my-4">
+                    <h5 class="card-header">My Information</h5>
+                    <div class="card-body">
+                        Name: Daniel English <br>
+                        Student ID: 14850842 <br>
+                        Email: mps0494@autuni.ac.nz
+                    </div>
+                </div>
+
+                <!-- Search Widget -->
+                <div class="card my-4">
+                    <form action="searchstatusprocess.php" method="GET">
+                      <h5 class="card-header">Search</h5>
+                      <div class="card-body">
+                        <div class="input-group">
+                          <input type="text" class="form-control" placeholder="Search for..." name="search">
+                          <span class="input-group-btn">
+                            <input type="submit" class="btn btn-secondary" value="search">
+                          </span>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+
+                <!-- New Post Widget -->
+                <div class="card my-4">
+                    <h5 class="card-header">Post a new Status</h5>
+                    <div class="card-body">
+                        <a href="poststatusform.php"><button class="btn btn-secondary" type="button">Post!</button></a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+        <div class="container">
+            <p class="m-0 text-center text-white">Copyright &copy; Daniel English - 14850842</p>
+        </div>
+        <!-- /.container -->
+    </footer>
+
+</body>
+
+</html>
